@@ -1,0 +1,127 @@
+/* The div that contain history or memory*/
+#lateral{
+    margin-top:20px;
+    float: right;
+    display: block;
+    margin-right: -5px;
+    width: 34.8%;
+    font-family: sans-serif;
+}
+
+#lateral #history,#lateral #memory{
+    position: fixed;
+    color: white;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#lateral #memory{
+    margin-left: 100px;
+}
+#lateral #history:hover,#lateral #memory:hover{
+    color: rgba(240, 248, 255, 0.856);
+}
+/*Aside that contain the lis history and  memory*/
+#relatory{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+/*The border of history or memory*/
+.newStory{
+    border-bottom: 3px solid rgba(0, 110, 255, 0.74);
+}
+/*The button of clean history or memory*/
+.cleanButton{
+    z-index: 1;
+    position: fixed;
+    padding: 2.5px;
+    background-color:  #ccccccaf;
+    color: #222222;
+    font-size: 14pt;
+    font-weight: bold;
+    float: right;
+    margin-top: 590px;
+    margin-left: 1270px;
+    margin-right: 0px;
+    border-radius: 12.5px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*memory*/
+#memoryMine .myMemory{
+    float: right;
+    margin-top: 10px;
+    margin-left: -30px;
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    width: 400px;
+    height: 70px;
+    color: #ccc;
+    border: 1px solid none;
+}
+#memoryMine .myMemory:hover{
+    background-color: #cccccc1e;
+}
+#memoryMine .resultMemory{    
+float: right;
+color: white;
+font-weight: bold;
+font-size: 18pt;
+margin-right: 20px;
+margin-bottom: 2em;
+}
+
+/*noMemory*/
+.noMemory{
+    position: fixed;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 9.5pt;
+    transition: .5s;
+}
+/*history*/
+#historyMine .myOperation{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    width: 400px;
+    height: 70px;
+    color: #ccc;
+    border: 1px solid none;
+}
+
+#historyMine .myOperation:hover{
+    background-color: #cccccc1e;
+}
+/*The calc*/
+#historyMine .resultMine{    
+float: right;
+color: white;
+font-weight: bold;
+font-size: 18pt;
+}
+/*answer of calcs*/
+.myCalc{
+    float: right;
+}
+/*noHistoric*/
+.nohistory{
+    position: fixed;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 9.5pt;
+    transition: .5s;
+}

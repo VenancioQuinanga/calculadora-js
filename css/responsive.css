@@ -1,0 +1,218 @@
+/*My responsive configurations*/
+/*For screens of 1024px*/
+@media screen and (max-width : 1024px) {
+.form-btn{
+    margin-top: 15.5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+    /*The buttons of this keyboard*/
+.central-buttons,.function-buttons{
+    padding: 30px 80px 30px 80px !important;
+}
+#buttonLess{
+    padding-left: 83.5px !important;
+    padding-right: 83.5px !important;
+}
+#button-v{
+    padding-right: 83.5px !important;
+    padding-left: 83.5px !important;
+}
+#buttonEqual{
+    padding: 30px 80px 30px 80px !important;
+}
+#buttonDivision{
+    padding: 30px 81px 30px 81px !important;
+}
+#buttonCE{
+    padding: 30px 68px 30px 69px !important;
+}
+#buttonC{
+    padding: 30px 78px 30px 78px !important;
+}
+#buttonD{
+    padding: 30px 77.5px 30px 77.5px !important;
+}
+.function-memory{
+    padding: 13px 18px 13px 19px;   
+}
+#myButtonMC,#myButtonMPlus,#myButtonMLess{
+    padding: 6px;
+    font-size: 10pt;
+}
+
+#result{
+        margin-top: 12em;
+}
+
+#result #stateup{
+        float: left;
+        margin-left: 28em; 
+}
+
+#result #statedown{
+    float: right;
+    margin-top: .5em;
+    margin-right: 2em;
+}
+
+#relatory{
+    margin-left: 7em;
+}
+
+.myOperation,.myMemory{
+    width: 300px !important;
+    height: 70px !important;
+}
+.noMemory,.nohistory{
+    margin-left: 10em;
+    font-size: 10pt;
+}
+
+/*Painel width*/
+.options{
+    width: 30% !important;
+}
+
+.cleanButton{
+    margin-top: 702px !important;
+    margin-right: 0 !important;
+    margin-left: 950px !important;
+    }
+}
+
+/**/
+@media screen and (max-width : 768px) {
+/*The keyboard*/
+    .form-btn{
+    width: 55em;
+    margin-top: 11em;
+}
+
+/*The buttons of this keyboard*/
+.central-buttons,.function-buttons{
+    padding: 20px 53px 20px 53px !important;
+}
+#buttonLess{
+    padding-left: 56.5px !important;
+    padding-right: 56.5px !important;
+}
+#button-v{
+    padding-right: 56.5px !important;
+    padding-left: 56.5px !important;
+}
+.function-memory{
+    padding: 10px 15px 10px 15px;   
+}
+#buttonEqual{
+    padding: 20px 53.5px 20px 53.5px !important;
+}
+#buttonDivision{
+    padding: 18px 54px 18px 54px !important;
+}
+#buttonCE{
+    padding: 18px 42px 18px 41px !important;
+}
+#buttonC{
+    padding: 18px 51px 18px 51px !important;
+}
+#buttonD{
+    padding: 18px 51px 18px 50px !important;
+}
+
+/*The states*/
+#result{
+    margin-top: 7em;
+}
+#result #stateup{
+    float: left;
+    margin-left: 18em;
+}
+
+#result #statedown{
+    float: right;
+    margin-top: 1em;
+    margin-right: 4.5em;
+    font-size: 21pt;
+}
+
+/*The history and memory*/
+#relatory{
+    margin-left: 3em;
+}
+.myOperation,.myMemory{
+    width: 270px !important;
+    height: 57px !important;
+}
+.resultMemory{
+    font-size: 12pt !important;
+    margin-bottom: 1px;
+}
+#myButtonMC,#myButtonMPlus,#myButtonMLess{
+    padding: 4px;
+    font-size: 10pt;
+}
+.noMemory,.nohistory{
+    margin-left: 5em;
+}
+
+/*Painel width*/
+.options{
+    width: 30% !important;
+}
+
+/*CleanButton*/
+.cleanButton{
+margin-top: 510px !important;
+margin-right: 0 !important;
+margin-left: 700px !important;
+}
+
+}
+
+@media screen and (max-width : 564px) {
+    .form-btn{
+        width: 50em;
+        margin-top: 23em;
+    }
+/*The buttons of this keyboard*/
+.central-buttons,.function-buttons{
+    font-size: 14pt;
+    padding: 5px 25px 5px 25px !important;
+}
+#buttonLess{
+    padding-left: 28.5px !important;
+    padding-right: 28.5px !important;
+}
+#button-v{
+    padding-right: 28.5px !important;
+    padding-left: 28.5px !important;
+}
+.function-memory{
+    padding: 5px 25px 5px 25px !important;
+}
+#buttonEqual{
+    padding: 5px 25.5px 5px 25.5px !important;
+}
+#buttonDivision{
+    padding: 5px 25px 5px 25.5px !important;
+}
+#buttonCE{
+    font-size: 14pt !important;
+    padding: 5px 13.5px 5px 13.5px !important;
+}
+#buttonC{
+    font-size: 14pt !important;
+    padding: 5px 23px 5px 23px !important;
+}
+#buttonD{
+    font-size: 14pt !important;
+    padding: 5px 23px 5px 22.5px !important;
+}
+.function-memory{
+    padding: 5px 8.5px 5px 8.5px !important;
+    font-size: 7pt !important;
+}
+}

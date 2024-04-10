@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/calculator.css">
+    <link rel="stylesheet" href="./css/scriptElements.css">
+    <link rel="stylesheet" href="./css/dates.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>calculadora</title>
+</head>
+<body>
+    <section>
+        <div id="index" class="form-btn">
+            <form>
+            <div id="top-buttons-memory">
+                    <input type="button" class="function-memory" id="buttonMC" value="MC">
+                    <input type="button" class="function-memory" id="buttonMR" value="MR">
+                    <input type="button" class="function-memory" id="buttonMPlus" value="M+">
+                    <input type="button" class="function-memory" id="buttonMLess" value="M-">
+                    <input type="button" class="function-memory" id="buttonMSave" value="MS">
+            </div>
+            <div id="top-buttons">
+                <input type="button" name="buttonCE" id="buttonCE" value="CE">
+                <input type="button" name="buttonC" id="buttonC" value="C">
+                <input type="button" name="buttonD" id="buttonD" value="D">
+                <input type="button" class="function-buttons" name="button÷" id="buttonDivision" value="÷">
+            </div>
+            <div id="numeric-buttons">
+              <div id="first-line">
+                    <input type="button" class="central-buttons" name="button7" id="buttonSeven" value="7">
+                    <input type="button" class="central-buttons" name="button8" id="buttonEight" value="8">
+                    <input type="button" class="central-buttons" name="button9" id="buttonNine" value="9">
+                    <input type="button" class="function-buttons" name="button×" id="buttonMultiplication" value="×">
+              </div>
+              <div id="second-line">
+                    <input type="button" class="central-buttons" name="button4" id="buttonFour" value="4">
+                    <input type="button" class="central-buttons" name="button5" id="buttonFive" value="5">
+                    <input type="button" class="central-buttons" name="button6" id="buttonSix" value="6">
+                    <input type="button" class="function-buttons" name="button-" id="buttonLess" value="-">
+              </div>
+              <div id="third-line">
+                    <input type="button" class="central-buttons" name="button1" id="buttonOne" value="1">
+                    <input type="button" class="central-buttons" name="button2" id="buttonTwo" value="2">
+                    <input type="button" class="central-buttons" name="button3" id="buttonThree" value="3">
+                    <input type="button" class="function-buttons" name="button+" id="buttonPlus" value="+">
+              </div>
+              <div id="last-line">
+                    <input type="button" class="central-buttons" name="button±" id="buttonPlusOrLess" value="±">
+                    <input type="button" class="central-buttons" name="button0" id="buttonZero" value="0">
+                    <input type="button" class="central-buttons" name="button-v" id="button-v" value=",">
+                    <input type="button" class="function-buttons" name="button=" id="buttonEqual" value="=">
+              </div>
+            </div>
+            </form>
+        </div>
+</section>
+    <aside id="painel">
+        <nav id="optionsMine">
+            <img src="./icons/menu-hamburguer.png" class="icon">
+            <ul>
+                <li class="myHidden"><a>Contacto</a></li>
+                <li class="myHidden"><a>Licença</a></li>
+                <li class="myHidden"><a>Politica e privacidade</a></li>
+                <li class="myHidden"><a>Termos e serviços</a></li>
+                <li class="myHidden"><a>sobre</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <div id="result">
+            <div id="stateup"></div>
+            <div id="statedown"></div>
+        </div>
+    </section>
+        
+    <aside id="lateral">
+        <div id="relatory">
+            <ul>
+                <li id="history" class="newStory"></li>
+                <li id="memory"></li>
+            </ul>
+        </div>
+            <div id="myRelatory">
+                <ul id="historyMine">
+
+                </ul>
+            </div>
+    </aside>
+   
+    <div id="new-state"></div>
+    <aside id="cleaner">
+            
+    </aside>
+    <script src="./js/calculator.js"></script>
+    <script src="./js/scriptElements.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*Progaming the menu*/
+
+/*This style`s icon*/
+.icon{
+    cursor: pointer;
+    background-color: #fff;
+    color: #fff;
+    width: 30px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+/*This`s the icon configuration hover*/
+.icon:hover{
+    background-color:  #ccc;
+    cursor: pointer;
+}
+/*It`s the configuration of menu of li*/
+.myHidden{
+    visibility: hidden;
+    color: #fff;
+    font-size: 24pt;
+    cursor: pointer;
+    transition: 0s;
+}
+/*His configuration of hover*/
+.myHidden:hover{
+    background-color: rgba(240, 248, 255, 0.205); 
+}
+
+/*Configuration of nav*/
+#optionsMine{
+    top: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px 1px;
+    transition: .5s;
+}
+.options{
+    width: 20% !important;
+
+}
+/*Configuration of his ul*/
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+/*Configuration of hover of his lis */
+ul li.myHidden:hover{
+    background-color: #cccccc5b;
+} 
+/*Configuration of his a that contain the text*/
+ul li.myHidden a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex ;
+    padding: 20 4%;
+    line-height: 40px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
